@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+#toolbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+canvas {
+  display: block;
+  background: #ffffff;
+  cursor: crosshair;
+  width: 100vw;
+  height: calc(100vh - 60px);
+}
+button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+button.active {
+  background: black;
+  color: white;
+}
